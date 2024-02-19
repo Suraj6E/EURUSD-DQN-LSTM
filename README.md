@@ -15,7 +15,7 @@ Finding Optimal Day Trading Strategy in EURUSD using Deep Q-Networks (DQN) with 
 
 The Temporal Difference or TD-Update rule can be represented as follows :This update rule to estimate the value of Q is applied at every time step of the agents interaction with the environment. The terms used are explained below. :
 
-![image.png](attachment:image.png)
+![image.png](./Images/q-value-update.jpg)
 
 
 S  : Current State of the agent.
@@ -37,7 +37,7 @@ $\alpha$  : Step length taken to update the estimation of Q(S, A).
  Q-Learning creates an exact matrix for the working agent which it can “refer to” to maximize its reward in the long run. 
  To solve above problem, DQN is invented which uses a deep neural network to approximate the values. This approximation of values does not hurt as long as the relative importance is preserved. The basic working step for Deep Q-Learning is that the initial state is fed into the neural network and it returns the Q-value of all possible actions as an output. 
 
- ![image.png](attachment:image.png)
+ ![image.png](./Images/qL%20vs%20DQN%20.png)
 
  
 
