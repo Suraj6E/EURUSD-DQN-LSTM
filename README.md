@@ -55,3 +55,9 @@ Experience replay is a technique where the agent stores a subset of its experien
 
 
 
+!TODO
+[] Change environment so that it has 5 actions - Buy, CloseBuy, Sell, CloseSell, Hold
+[] LSTM prediction based on high and low at certain price point
+[] LSTM prediction on multpiple timeframes
+[] Pass LSTM prediction for current time into envionment to make a decision
+[] Dicision: Take action based on predictions percentage of multiple timeframes
